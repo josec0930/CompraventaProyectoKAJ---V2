@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;
+}
+
+html {
+    background-image: url(Recursos/Fondo/Fondo.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+nav {
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #0059ff;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    background-color: rgb(255, 255, 255);
+    color: #0059ff;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px double;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 15px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.contenedor img {
+    width: 90%;
+    display: block;
+    margin: auto;
+
+}
+
+.tarjetas .carro.unico {
+    order: -1;
+}
+
+.tarjetas .carro {
+    background-color: rgba(167, 167, 197, 0.637);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0059ff;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    overflow: auto;
+    aspect-ratio: 700/600;
+    transition: all 0.50s;
+}
+
+.tarjetas .carro:hover {
+    background-color: rgb(172, 226, 222);
+    transform: scale(1.1);
+}
+
+.video {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: calc(100 w *40 / 100);
+}
+
+.tarjetas .carro .contenedor p:first-child {
+    bottom: unset;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-bottom: 2px dashed #0059ff;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+footer p {
+    font-size: smaller;
+    margin: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        flex-direction: column;
+    }
+}

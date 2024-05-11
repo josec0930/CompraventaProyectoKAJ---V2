@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;
+}
+
+html {
+    background-image: url(Recursos/Fondo/Fondo.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+nav {
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #0059ff;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    background-color: rgb(255, 255, 255);
+    color: #0059ff;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px double;
+}
+
+table {
+    width: 70%;
+    margin: 75px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 3px outset rgb(9, 132, 148);
+}
+
+thead {
+    font-size: 14px;
+    background-color: #00b7ff;
+    font-weight: bold;
+    color: #fff;
+}
+
+caption {
+    background-color: rgb(9, 132, 148);
+    font-size: 22px;
+    color: rgb(255, 255, 255)
+}
+
+.contactos h2 {
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.contactos p {
+    color: #002fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+
+
+.contactos ul {
+    list-style: inside;
+    padding: 0;
+    margin: 20px;
+}
+
+
+.contactos a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer p {
+    font-size: smaller;
+    margin: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        flex-direction: column;
+    }
+}

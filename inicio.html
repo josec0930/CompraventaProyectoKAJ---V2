@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+  <link rel="shortcut icon" href="Recursos/Iconos/user.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styleInicio.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Te damos la bienvenida a nuestra compraventa de vehículos! LaFerrory</h1>
+    <nav>
+      <a href="catalogo.html" target="_blank">Catálogo</a>
+      <a href="nosotros.html" target="_blank">Nosotros</a>
+      <a href="personal.html" target="_blank">Personal</a>
+    </nav>
+  </header>
+
+  <h2>Para brindarte una mejor experiencia te pedimos que diligencies los siguientes datos:</h2>
+  <div class="row">
+    <aside class="aside">
+      <div class="registro">
+        <form action="">
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" autocomplete="off" required />
+          </div>
+          <div class="campo">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" autocomplete="off"
+              required />
+          </div>
+          <div class="campo">
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" placeholder="Ingrese su # de cédula" autocomplete="off"
+              required />
+          </div>
+          <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" placeholder="Ingrese su # de teléfono" required />
+          </div>
+          <div class="campo">
+            <label for="lciudad">Selecciona tu ciudad de residencia:</label>
+            <select name="ciudad" id="lciudad">
+              <option value="Bogotá">Bogotá</option>
+              <option value="Medellín">Medellín</option>
+              <option value="Cartagena">Cartagena</option>
+            </select>
+          </div>
+          <div class="campo">
+            <input type="submit" value="Continuar...">
+            <input type="reset" value="borrar..." />
+          </div>
+        </form>
+      </div>
+    </aside>
+    <section class="section">
+      <img src="Recursos/Imagenes/BMW-M2.jpg" alt="BMW-M2">
+    </section>
+  </div>
+  <div class="contactos">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna pregunta o comentario? ¡No dudes en ponerte en contacto con nosotros!</p>
+    <ul>
+      <li><a href="mailto:info@laferrary.com">Correo electrónico</a></li>
+      <li><a href="tel:+1234567890">Teléfono</a></li>
+      <li><a href="https://www.facebook.com/laferrary">Facebook</a></li>
+      <li><a href="https://twitter.com/laferrary">Twitter</a></li>
+    </ul>
+  </div>
+  <footer>
+    <p>Alex Cuervo</p>
+    <p>Kevin Duque</p>
+    <p>Jose Cardona</p>
+    <p>2024</p>
+  </footer>
+</body>
+
+</html>
